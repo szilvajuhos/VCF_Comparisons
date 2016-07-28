@@ -339,7 +339,7 @@ void ProcessVCF::readVCF(string vcf_file_name, int vcf_index){
 
 void ProcessVCF::GenerateVCFStats(string vcf_name, int vcf_index){
 
-    boost::unordered::unordered_map<string, vector < variantfeatures >>::iterator it;
+    boost::unordered::unordered_map<string, vector < variantfeatures > >::iterator it;
     
     double nofhets[2], nofhomalts[2], nofmultiallelicsnps[2];
     
