@@ -7,7 +7,6 @@ file(GLOB_RECURSE SOURCES ../external/alglib/src/*.cpp)
 
 # set our library and executable destination dirs
 set( EXECUTABLE_OUTPUT_PATH "../bin" )
-set(CMAKE_PREFIX_PATH "/store/local/")
   
 add_executable(Compare_VCFs main.cpp ${SOURCES})
    
