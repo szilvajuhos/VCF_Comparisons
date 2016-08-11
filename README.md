@@ -2,7 +2,7 @@ This utility is to compare different call sets for the same input data.
 
 ## Prerequisites
 
- - http://www.alglib.net/download.php (or sudo apt-get install libboost-iostreams-dev )
+ - http://www.alglib.net/download.php (or sudo apt-get install libalglib-dev)
  - Boost iostreams developmental library (i.e. sudo apt-get install libboost-iostreams-dev )
 
 ## Credits:
